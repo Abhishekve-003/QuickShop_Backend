@@ -1,0 +1,26 @@
+.userListContainer{
+    background-color: rgb(255,255,255);
+    border-left: 1px solid rgba(0,0,0,0.13);
+    margin: 0;
+    padding: 0;
+    width: 80vw;
+}
+#userListHeading{
+    font-size: 3rem;
+    text-align: center;
+    margin: 5rem;
+}
+table{
+    table-layout: fixed;
+}
+.id{
+    font-size: 1.5rem;
+}
+button:hover{
+    color: tomato;
+}
+@media (max-width:860px) {
+    .userListContainer{
+        width: 100vw;
+    }
+}

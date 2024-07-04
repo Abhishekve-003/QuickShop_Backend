@@ -1,0 +1,66 @@
+.orderDetailsPage{
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    background-color: white;
+}
+.orderDetailsContainer{
+    padding: 0 10rem;
+}
+.orderDetailsContainer > p{
+    font: 500 3.5rem "Roboto";
+}
+.orderDetailsContainer > h1{
+    color: tomato;
+    font-size: 3rem;
+    margin-bottom: 2%;
+}
+.orderDetailsContainerBox{
+    margin: 3rem 6rem; 
+}
+.orderDetailsContainerBox > div{
+    display: flex;
+    margin: 2rem 0;
+    align-items: center;
+}
+.orderDetailsContainerBox div p{
+    font: 400 2.5rem "Roboto";
+}
+.orderDetailsContainerBox div span{
+    margin: 0 2rem;
+    font: 100 2rem cursive;
+    color: #575757;
+}
+.orderDetailsCartItems{
+    padding: 0 10rem;
+    padding-top: 2rem;
+}
+.orderDetailsCartItems p{
+    font: 500 3.5rem "Roboto";
+}
+.orderDetailsCartItemsContainer{
+    max-height: 30rem;
+    overflow-y: auto;
+    margin: 3rem 6rem;
+}
+.orderDetailsCartItemsContainer div img{
+    margin: 2rem 0;
+    width: 7rem;
+}
+.orderDetailsCartItemsContainer div{
+    display: grid;
+    grid-template-columns: 2fr 3fr 4fr;
+    align-items: center;
+    font: 400 2rem "Roboto";
+}
+.orderDetailsCartItemsContainer div a{
+    color: #575757;
+    text-decoration: none;
+    font-family: cursive;
+    cursor: pointer;
+}
+.orderDetailsCartItemsContainer div span{
+    font-size: 2rem;
+}
+@media (max-width:850px) {
+    
+}

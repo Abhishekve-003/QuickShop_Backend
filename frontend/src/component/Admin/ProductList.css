@@ -1,0 +1,38 @@
+.noProducts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.noProducts p{
+    font-size: 5rem;
+    margin-bottom: 3rem;
+}
+.productListContainer{
+    background-color: rgb(255,255,255);
+    border-left: 1px solid rgba(0,0,0,0.13);
+    width: 80vw;
+}
+#productListHeading{
+    font-size: 3rem;
+    text-align: center;
+    margin: 5rem;
+}
+table{
+    table-layout: fixed;
+}
+.id{
+    font-size: 0.9rem;
+}
+button:hover{
+    color: tomato;
+}
+@media (max-width:860px) {
+    .productListContainer{
+        width: 100vw;
+    }
+}

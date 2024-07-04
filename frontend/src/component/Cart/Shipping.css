@@ -1,0 +1,134 @@
+.shippingContainer{
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -12rem;
+}
+.shippingBox{
+    width: 27vw;
+    height: 90vh;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.shippingHeading{
+    color: rgba(0,0,0,0.664);
+    text-align: center;
+    border-bottom: 0.1rem solid rgba(0,0,0,1);
+    width: 70%;
+    margin: auto;
+    font: 500 3rem 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 2.4rem;
+    margin-bottom: 2rem;
+}
+.shippingForm{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    transition: 0.5s all;
+}
+.shippingForm div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.shippingForm div input,
+.shippingForm div select{
+    font: 300 2rem cursive;
+    box-sizing: border-box;
+    width: 100%;
+    border: 0.1rem solid rgba(0,0,0,0.267);
+    outline: none;
+    border-radius: 0.4rem;
+    padding: 1rem 4rem;
+    padding-right: 1rem;
+    margin-bottom: 2.5rem;
+}
+.shippingForm div svg{
+    position: absolute;
+    transform: translateX(1rem) translateY(-1rem);
+    font-size: 2.5rem;
+    color: rgba(0,0,0,0.678);
+}
+.shippingBtn{
+    border: none;
+    outline: none;
+    color: white;
+    background-color: tomato;
+    font: 300 2.5rem "Roboto";
+    width: 100%;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    padding: 1.3rem;
+    transition: 0.5s linear;
+    box-shadow: 0 0.2rem 0.5rem rgba(0,0,0,0.219);
+}
+.shippingBtn:hover{
+    background-color: rgb(179,66,46);
+}
+@media (max-width:1650px) {
+    .shippingBox{
+        width: 30vw;
+    }
+}
+
+@media (max-width:1500px) {
+    .shippingBox{
+        width: 32vw;
+    }
+}
+@media (max-width:1350px) {
+    .shippingBox{
+        width: 35vw;
+    }
+}
+@media (max-width:1200px) {
+    .shippingBox{
+        width: 40vw;
+    }
+}
+@media (max-width:1000px) {
+    .shippingBox{
+        width: 45vw;
+    }
+}
+@media (max-width:900px) {
+    .shippingBox{
+        width: 50vw;
+    }
+}
+@media (max-width:768px) {
+    .shippingBox{
+        height: 70vh;
+    }
+    .shippingBox div input{
+        font-size: 2.5rem;
+    }
+    .shippingBox h1{
+        font-size: 3.4rem;
+    }
+    .shippingBtn{
+        font-size: 3rem;
+        margin-top: 3rem;
+    }
+}
+@media (max-width:650px) {
+    .shippingBox{
+        width: 60vw;
+    }
+}
+@media (max-width:450px) {
+    .shippingBox{
+        width: 70vw;
+        height: 50vh;
+    }
+}
+@media (max-width:400px) {
+    .updatePasswordBox{
+        height: 40vh;
+    }
+} 

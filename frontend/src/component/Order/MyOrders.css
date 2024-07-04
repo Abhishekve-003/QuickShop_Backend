@@ -1,0 +1,78 @@
+.noOrders{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.noOrders svg{
+    font-size: 12rem;
+    margin-bottom: 2rem;
+    color: tomato;
+}
+.noOrders p{
+    font-size: 5rem;
+    margin-bottom: 3rem;
+}
+.noOrders a{
+    background-color: rgb(51,51,51);
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font: 400 2.5rem "Roboto";
+    padding: 2rem 3.5rem;
+}
+table{
+   table-layout: fixed;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border: 1px solid black;
+   width: 80%;
+   margin-left: 9%;
+   margin-bottom: 25rem;
+}
+table thead,
+table tbody{
+    width: 100%;
+}
+table thead tr,
+table tbody tr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+table thead tr th,
+table tbody tr th{
+    width: 100%;
+    border: 1px solid black;
+    padding: 1%;
+    font-weight: 900;
+}
+table thead tr th{
+    font-size: 2.5rem;
+    background-color: tomato;
+}
+table tbody tr th{
+    font-size: 1.8rem;
+}
+table tbody tr th a{
+    color: black;
+}
+table tbody tr th a:hover{
+    color: tomato;
+}
+#myOrdersHeading{
+    font-size: 3.5rem;
+    text-align: center;
+    margin: 7rem 0;
+    font-weight: 600;
+}
+.font{
+    font-size: 1.5rem;
+}

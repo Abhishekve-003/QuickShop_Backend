@@ -1,0 +1,104 @@
+html{
+    font-size: 62.5%;
+}
+#footer{
+    font-size: 1.6rem;
+    background-color: rgb(34,33,33);
+    color: white;
+    margin-top: 12rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    padding: 3rem 2rem;
+    overflow-x: hidden;
+}
+.leftFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 2rem;
+}
+.leftFooter > h3{
+    margin-bottom: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5rem;
+}
+.leftFooter p{
+    font-size: 2rem;
+}
+.leftFooter > img {
+    width: 14rem;
+}
+.midFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 2rem;
+}
+.midFooter > h1{
+    font-size: 5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: crimson;
+    margin-bottom: 1.5rem;
+}
+.midFooter p{
+    line-height: 1.5;
+    font-size: 2rem;
+    padding: 0;
+}
+.rightFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.5s;
+}
+.rightFooter h4{
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 1.5rem;
+}
+.rightFooter > a{
+    text-decoration: none;
+    line-height: 1.5;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+.rightFooter > a:hover{
+    color: crimson;
+}
+.rightFooter > a > svg{
+    font-size: 3.5rem;
+    margin-right: 1rem;
+    color: crimson;
+}
+@media (max-width:568px) {
+    .leftFooter > h3{
+        font-size: 3.5rem;
+    }
+    .leftFooter p{
+        font-size: 2.5rem;
+    }
+    .midFooter p{
+        font-size: 2.5rem;
+    }
+    .rightFooter > a{
+        font-size: 2.5rem;
+    }
+}
+@media (max-width:768px) {
+    #footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: flex-start;
+    }
+    .leftFooter{
+        align-items: flex-start;
+    }
+    .leftFooter > img {
+        display: none;
+    }
+}
+
+

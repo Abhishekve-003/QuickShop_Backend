@@ -1,0 +1,105 @@
+.paymentContainer{
+    display: grid;
+    place-items: center;
+    margin: 6rem;
+    height: 70vh;
+}
+.paymentForm{
+    width: 25%;
+    height: 100%;
+}
+.paymentForm > p{
+    color: rgba(0,0,0,0.664);
+    text-align: center;
+    border-bottom: 0.1rem solid rgba(0,0,0,0.205);
+    width: 80%;
+    margin: auto;
+    font: 500 3.5rem 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+.paymentForm > div{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.paymentInput{
+    font: 300 2rem cursive;
+    box-sizing: border-box;
+    width: 100%;
+    border: 0.1rem solid rgba(0,0,0,0.267);
+    outline: none;
+    border-radius: 0.4rem;
+    padding: 2rem 4rem;
+    padding-right: 1rem;
+    margin-top: 2rem;
+}
+.paymentForm div svg{
+    position: absolute;
+    transform: translateX(1rem) translateY(1rem);
+    font-size: 2.5rem;
+    color: rgba(0,0,0,0.678);
+}
+.paymentFormBtn{
+    border: none;
+    outline: none;
+    color: white;
+    background-color: tomato;
+    font: 300 2.5rem "Roboto";
+    width: 100%;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    padding: 1.5rem;
+    transition: 0.5s linear;
+    margin-top: 2rem;
+    box-shadow: 0 0.2rem 0.5rem rgba(0,0,0,0.219);
+}
+.paymentFormBtn:hover{
+    background-color: rgb(179,66,46);
+}
+
+@media (max-width:1200px) {
+    .paymentForm{
+        width: 30%;
+    }
+    .paymentForm > p{
+        font-size: 2.9rem;
+    }
+    .paymentFormBtn{
+        font: 300 2rem "Roboto";
+    }
+}
+@media (max-width:1000px) {
+    .paymentForm{
+        width: 35%;
+    }
+}
+@media (max-width:850px) {
+    .paymentForm{
+        width: 40%;
+    }
+}
+@media (max-width:750px) {
+    .paymentForm{
+        width: 45%;
+    }
+}
+@media (max-width:650px) {
+    .paymentForm{
+        width: 55%;
+    }
+}
+@media (max-width:550px) {
+    .paymentForm{
+        width: 65%;
+    }
+    .paymentInput{
+        padding: 2.5rem 4rem;
+    }
+}
+@media (max-width:500px) {
+    .paymentForm{
+        width: 80%;
+    }
+}
+

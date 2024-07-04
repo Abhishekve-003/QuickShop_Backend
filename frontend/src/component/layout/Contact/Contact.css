@@ -1,0 +1,29 @@
+.contactPage{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: grid;
+    place-items: center;
+    background-color: white;
+    position: fixed;
+}
+.mailBtn{
+    text-decoration: none;
+    animation: mailBtnAnimation 2s forwards;
+    transform: translateX(-100vw);
+}
+.mailBtn button{
+    text-decoration: none;
+    font-size: 2.5rem;
+    padding: 2rem;
+}
+@keyframes mailBtnAnimation {
+    to {
+        transform: translateX(0);
+    }
+}
+@media (max-width:568px) {
+    .mailBtn button{
+        font-size: 3.5rem;
+    }
+}

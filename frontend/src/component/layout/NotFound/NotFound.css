@@ -1,0 +1,36 @@
+.pageNotFound{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.pageNotFound svg {
+    font-size: 8rem;
+    color: tomato;
+}
+.pageNotFound p{
+    font-size: 4rem;
+}
+.pageNotFound a{
+    text-decoration: none;
+    font: 400 2.5rem "Roboto";
+    border: none;
+    cursor: pointer;
+    margin: 2rem;
+    color: white;
+    background-color: rgb(51,51,51);
+    padding: 1rem 3rem;
+}
+@media (max-width:568px) {
+    .pageNotFound p{
+        font-size: 5rem;
+    }
+    .pageNotFound a{
+        font-size: 3.5rem;
+    }
+}
+
+

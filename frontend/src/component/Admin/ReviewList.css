@@ -1,0 +1,70 @@
+.productReviewsContainer{
+    width: 80vw;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: rgb(255,255,255);
+    border-left: 1px solid rgba(0,0,0,0.13);
+}
+.productReviewsForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35rem;
+    background-color: white;
+    padding: 3rem;
+    margin: auto;
+}
+.productReviewsForm div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 2rem;
+}
+.productReviewsForm div input{
+    font: 300 2rem cursive;
+    box-sizing: border-box;
+    width: 100%;
+    border: 0.1rem solid rgba(0,0,0,0.267);
+    outline: none;
+    border-radius: 0.4rem;
+    padding: 1.5rem 4rem;
+    padding-right: 1rem;
+}
+.productReviewsForm div svg{
+    position: absolute;
+    transform: translateX(1rem);
+    font-size: 2rem;
+    color: rgba(0,0,0,0.678);
+}
+.productReviewsFormHeading{
+    font-size: 3rem;
+    text-align: center;
+    color: rgba(0,0,0,0.733);
+}
+#productReviewsBtn{
+    border: none;
+    outline: none;
+    color: white;
+    background-color: tomato;
+    font: 300 2.5rem "Roboto";
+    width: 100%;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    padding: 1.3rem;
+    transition: 0.5s linear;
+    box-shadow: 0 0.2rem 0.5rem rgba(0,0,0,0.219);
+}
+#productReviewsBtn:hover{
+    background-color: rgb(179,66,46);
+}
+.id{
+    font-size: 1.3rem;
+}
+table {
+    table-layout: fixed;
+}
+@media (max-width:860px) {
+    .productReviewsContainer{
+        width: 100vw;
+    }
+}

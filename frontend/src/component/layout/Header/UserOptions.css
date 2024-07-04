@@ -1,0 +1,16 @@
+html{
+    font-size: 62.5%;
+}
+.speedDial{
+    position: fixed;
+    top: 6rem;
+    right: 6rem;
+}
+.speedDialIcon{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+}
+.icon{
+    transform: scale(1.3);
+}

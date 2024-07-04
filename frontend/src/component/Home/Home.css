@@ -1,0 +1,121 @@
+html{
+    font-size: 62.5%;
+}
+.banner{
+    background-image: linear-gradient(to right,rgb(0, 0, 249), rgb(177, 0, 193), #6156ff, #080156);
+    height: 100vh;
+    text-align: center;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 2.5;
+}
+.banner p{
+    font-size: 3.5rem;
+    font-weight: 300;
+}
+.banner h1{
+    margin-top: 0;
+    font-size: 5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+.banner a button{
+    padding: 1rem 4rem;
+    margin-top: 2rem;
+    font-size: 3rem;
+    cursor: pointer;
+    transition: all 0.5s;
+    border: none;
+}
+.banner a button:hover{
+    background-color: rgba(255,255,255,0);
+    color: white;
+    border: 0.1rem solid white;
+}
+.banner::after{
+    content:"";
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    clip-path: polygon(100% 68%, 0 100%, 100% 100%);
+}
+.homeHeading{
+    overflow-x: hidden;
+    padding: 0 10%;
+}
+.homeHeading h2{
+    text-align: center;
+    font: 900 5rem 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 0.1rem solid rgba(21,21,21,0.5);
+    padding-bottom: 2rem;
+    width: 65%;
+    margin: 3rem auto;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding-top: 5%;
+}
+.productCard{
+    color: rgb(48,48,48);
+    display: flex;
+    flex-direction: column;
+    transition: all 0.5s;
+    gap: 1rem;
+}
+.productCard:hover{
+    box-shadow: 0 0 0.5rem rgba(15,15,15,0.26);
+    transform: translateY(-1rem);
+}
+.productCard > img{
+    width: 100%;
+}
+.productCard  p{
+    font-size: 3rem;
+    margin: 1rem;
+    font-weight: 900;
+}
+.productCard div{
+    display: flex;
+    align-items: center;
+    margin: 0 0.2rem;
+}
+.productCard div span{
+    font-size: 2rem;
+}
+.productCard > span{
+    color: crimson;
+    margin: 1rem;
+    font-size: 2.5rem;
+}
+@media (max-width:998px) {
+    .container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width:768px) {
+    .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width:568px) {
+    .container{
+        grid-template-columns: 1fr;
+    }
+    .productCard  p{
+        font-size: 4rem;
+    }
+    .productCard div span{
+        font-size: 3rem;
+    }
+    .productCard > span{
+        font-size: 3.5rem;
+    }
+}
